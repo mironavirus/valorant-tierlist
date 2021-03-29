@@ -1,0 +1,18 @@
+package model.entities;
+
+public class Duelist extends Agent {
+
+	public Duelist() {
+		super();
+	}
+	
+	@Override
+	public Double totalScore() {
+		return entryFraggerScore + defenderScore + infoCatcherScore + infoDenierScore + mobilityScore + ultimateScore;
+		
+		
+		
+		
+		
+
+}

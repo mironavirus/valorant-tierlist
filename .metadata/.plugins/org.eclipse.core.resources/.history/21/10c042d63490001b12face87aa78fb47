@@ -1,0 +1,14 @@
+package model.entities;
+
+public class Iniciator extends Agent {
+
+	public Iniciator() {
+		super();
+	}
+
+	@Override
+	public Double totalScore() {
+		return (2 * entryFraggerScore + defenderScore + infoCatcherScore + 1.5 * infoDenierScore + 1.5 * mobilityScore + ultimateScore) / 8;
+	}
+
+}

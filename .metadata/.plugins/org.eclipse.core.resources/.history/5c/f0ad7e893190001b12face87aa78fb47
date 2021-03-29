@@ -1,0 +1,10 @@
+package model.entities;
+
+public class Abilities {
+
+	private String name;
+	private String description;
+	private String hotKey;
+	private Integer cooldown;
+	
+}

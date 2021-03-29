@@ -1,0 +1,14 @@
+package model.entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.entities.enums.Role;
+
+public class Agent {
+	
+	private String name;
+	private Role role;
+	private List<Ability> abilities = new ArrayList<>();
+
+}

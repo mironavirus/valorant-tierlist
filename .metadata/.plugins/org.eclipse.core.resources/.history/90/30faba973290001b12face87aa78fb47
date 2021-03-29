@@ -1,0 +1,17 @@
+package model.entities;
+
+public class Ultimate extends AbstractAbility{
+
+	private Integer orbsNeededToCompletion;
+	
+	public Ultimate() {
+		super();
+	}
+
+	public Ultimate(String name, String description, String hotKey, Integer orbsNeededToCompletion) {
+		super(name, description, hotKey = "X");
+		this.orbsNeededToCompletion = orbsNeededToCompletion;
+	}
+	
+	
+}

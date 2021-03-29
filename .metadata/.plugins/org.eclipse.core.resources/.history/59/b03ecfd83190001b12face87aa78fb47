@@ -1,0 +1,52 @@
+package model.entities;
+
+public class Ability {
+
+	private String name;
+	private String description;
+	private String hotKey;
+	private Integer cooldown;
+	
+	public Ability() {
+	}
+
+	public Ability(String name, String description, String hotKey, Integer cooldown) {
+		this.name = name;
+		this.description = description;
+		this.hotKey = hotKey;
+		this.cooldown = cooldown;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getHotKey() {
+		return hotKey;
+	}
+
+	public void setHotKey(String hotKey) {
+		this.hotKey = hotKey;
+	}
+
+	public Integer getCooldown() {
+		return cooldown;
+	}
+
+	public void setCooldown(Integer cooldown) {
+		this.cooldown = cooldown;
+	}
+	
+}
